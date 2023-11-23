@@ -1,0 +1,183 @@
+.calendar {
+    background-color: #e5e5e5;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.calendarWrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.calendarBanner {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.calendarBannerLeft {
+    background-color: white;
+}
+
+.calendarBannerRight {
+    background-color: white;
+}
+
+.calendarSidebarLeft {
+    background-color: white;
+    flex: 2;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.calendarWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.calendarContent {
+    background-color: white;
+    flex: 8;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.calendarSidebarRight {
+    background-color: white;
+    flex: 2;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.calendarSidebarCategory p {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.calendarSidebarCategoryList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+    transition: 0.2s linear;
+    transform-origin: top;
+}
+
+.calendarSidebarCategoryList li {
+    font-size: 13px;
+    padding: 3px 2px;
+    cursor: pointer;
+}
+
+.calendarSidebarCategoryList img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+#icon-category {
+    transition: 0.2s linear;
+}
+
+.calendarContentNavbar {
+    text-align: center;
+}
+
+.calendarContentNavbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.calendarContentNavbar ul li {
+    display: inline-block;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-bottom: 0.5px solid rgb(226, 226, 226);
+    border-radius: 8px;
+}
+
+.calendarContentNavbar ul li p {
+    margin-bottom: 0px;
+}
+
+.calendarContentNavbar ul li p:first-child {
+    font-size: 12px;
+}
+
+.calendarContentNavbar ul li p:nth-child(2) {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.calendarContentNavbar ul li:hover {
+    color: #f60;
+    background-color: #fff8f3;
+}
+
+.calendarOption {
+    margin-top: 10px;
+}
+
+.calendarOption ul {
+    padding: 0;
+    list-style: none;
+}
+
+.calendarOption ul li {
+    padding: 5px;
+    background-color: #e5e5e5;
+    display: inline-block;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.calendarOption ul li:not(:first-child) {
+    margin-left: 3px;
+}
+
+.calendarTable table {
+    width: 100%;
+}
+
+.calendarTable table thead tr {
+    background-color: #397f19;
+    color: white;
+    border: 1px solid gray;
+    font-weight: 600;
+}
+
+.calendarTable table thead tr td {
+    font-size: 12px;
+    padding: 5px 4px;
+}
+
+.calendarTable table tbody tr td {
+    padding: 5px 4px;
+    font-size: 12px;
+}
+
+.calendarTable table tbody tr {
+    border-bottom: 0.5px solid rgb(207, 207, 207);
+}
+
+.yellowCard {
+    padding: 1px 2px;
+    background-color: rgba(245, 241, 24, 0.815);
+    margin: 3px;
+}
+
+.redCard {
+    padding: 1px 2px;
+    background-color: red;
+    color: white;
+    margin: 3px;
+}
+
+.match-result-versus {
+    display: flex;
+}

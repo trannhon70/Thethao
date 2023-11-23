@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Disallow: /404
+Disallow: https://admin.thethaosh.com/
+Disallow: /readme.html
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://thethaosh.com/
+
+# Sitemaps
+Sitemap: https://thethaosh.com/page-sitemap.xml
